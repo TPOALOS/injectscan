@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "injectscan"
+version = "1.0.0"
+description = "Find hidden instructions aimed at AI assistants: invisible Unicode (decoded), hidden HTML, comments, padded text, encoded payloads. Offline. No dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "TPOALOS"}]
+keywords = ["prompt-injection", "ai-security", "llm", "unicode", "agents"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/TPOALOS/injectscan"
+
+[project.scripts]
+injectscan = "injectscan:main"
+
+[tool.setuptools]
+py-modules = ["injectscan"]

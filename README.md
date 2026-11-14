@@ -60,3 +60,7 @@ python3 -m unittest -v
 ## License
 
 MIT (c) TPOALOS
+
+---
+
+**More tools by [TPOALOS](https://github.com/TPOALOS):** [ctxpack](https://github.com/TPOALOS/ctxpack) · [tokcount](https://github.com/TPOALOS/tokcount) · [cmdguard](https://github.com/TPOALOS/cmdguard) · [all 51 tools](https://tpoalos.github.io)
